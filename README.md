@@ -38,12 +38,14 @@ Owning  :
     
 # Game Modules
 1. Explore
-  - Mengirimkan beberapa POD untuk mengoccupy banyak wilayah
-  - Mencari tiles yang memiliki Platinum Bars dan kemudian mengoccupynya
+  - Mengirimkan beberapa POD (dalam jumlah sedikit namun menyebar) untuk mengoccupy banyak wilayah dan terus track posisi, apabila POD 
+    tersebut dieliminasi oleh musuh, maka mengirimkan yang baru lagi
+  - Mencari tiles yang memiliki Platinum Bars dan kemudian mengoccupynya, apabila terdapat wilayah Platinum Bar yang sebelumnya teroccupy 
+    namun kemudian diambil oleh musuh, maka mengirimkan kembali POD menuju Platinum bar tersebut
   - Mencari jalur terdekat menuju base musuh 
   
 2. Offence 
-  - Mendeteksi tiles wilayah player yang dioccupy oleh musuh unutk kemudian mengirim POD untuk reoccupy
+  - Mendeteksi tiles wilayah player yang dioccupy oleh musuh untuk kemudian mengirim POD untuk reoccupy
   - Selalu mengirimkan POD menuju base musuh 
   
 3. Defend
